@@ -17,46 +17,41 @@ body{
     background:transparent;
 }
 
+.hand{
+    background:white;
+    position:relative;
+    transform-origin:100%;
+    margin:auto;
+}
+
 
 .hour-hand{
-    background:white;
     height:10px;
     width:140px;
-    position:relative;
     top:172px;
     right:70px;
-    transform-origin:100%;
     transform:rotate(90deg);
-    margin:auto;
     box-shadow:0 0 20px cyan;
 }
 
 
 .minute-hand{
-    background:white;
     height:5px;
     width:150px;
-    position:relative;
     top:162px;
     right:75px;
-    transform-origin:100%;
     transform:rotate(90deg);
-    margin:auto;
     box-shadow:0 0 20px green;
 }
 
 
 .second-hand{
-    background:white;
     height:2px;
     width:160px;
-    position:relative;
     top:162px;
     right:80px;
-    transform-origin:100%;
     transform:rotate(90deg);
     transition:all 0.5s;
     transition-timing-function:ease-in-out;
-    margin:auto;
     box-shadow:0 0 20px rgb(22, 219, 170);
 }
