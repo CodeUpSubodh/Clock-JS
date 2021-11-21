@@ -41,7 +41,7 @@ body{
     top:162px;
     right:75px;
     transform:rotate(90deg);
-    box-shadow:0 0 20px green;
+    box-shadow:0 0 20px cyan;
 }
 
 
@@ -53,5 +53,5 @@ body{
     transform:rotate(90deg);
     transition:all 0.5s;
     transition-timing-function:ease-in-out;
-    box-shadow:0 0 20px rgb(22, 219, 170);
+    box-shadow:0 0 10px cyan;
 }
